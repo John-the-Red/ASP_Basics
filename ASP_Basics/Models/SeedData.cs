@@ -26,6 +26,7 @@ namespace ASP_Basics.Models
                         Title = "Lord of the Rings: The Fellowship of the Ring",
                         ReleaseDate = DateTime.Parse("2001-2-12"),
                         Genre = "Fantasy Epic",
+                        Rating = "PG-13",
                         Price = 7.99M
                     },
 
@@ -34,6 +35,7 @@ namespace ASP_Basics.Models
                         Title = "Ghostbusters",
                         ReleaseDate = DateTime.Parse("1984-3-13"),
                         Genre = "Comedy",
+                        Rating = "PG",
                         Price = 8.99M
                     },
 
@@ -42,6 +44,7 @@ namespace ASP_Basics.Models
                         Title = "Ghostbusters 2",
                         ReleaseDate = DateTime.Parse("1986-2-23"),
                         Genre = "Comedy",
+                        Rating = "PG",
                         Price = 9.99M
                     },
 
@@ -50,6 +53,7 @@ namespace ASP_Basics.Models
                         Title = "Serenity",
                         ReleaseDate = DateTime.Parse("2005-9-30"),
                         Genre = "Space Western",
+                        Rating = "PG-13",
                         Price = 3.99M
                     }
                     );
